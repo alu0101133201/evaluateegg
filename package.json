@@ -1,5 +1,5 @@
 {
-  "name": "@alu0101133201/evaluateegg",
+  "name": "evaluateegg",
   "version": "1.0.0",
   "description": "module which implements the evaluate functionality for an implementation of egg lenguage",
   "main": "eggvm.js",
