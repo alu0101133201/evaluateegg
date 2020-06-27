@@ -7,7 +7,7 @@ This module implements an evaluate method for an implementation of an egg lengua
 ## Install
 
 ```
-  npm install evaluateegg
+npm i @alu0101133201/evaluateegg
 ```
 
 ## Egg example
@@ -32,7 +32,7 @@ main functions:
   - runFromEVM (Interpret the AST given in an EVM file)
 
 ```js
-  const { runFromEVM } = require('evaluategg/eggvm');
+  const { runFromEVM } = require('@alu0101133201/evaluateegg/eggvm');
   const { fs } = require('fs');
 
   let filename = fs.readFileSync('yourEggCode.egg', 'utf-8');
