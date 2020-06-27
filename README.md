@@ -1,4 +1,4 @@
-# evaluateEgg
+# evaluateegg
 # Evaluate method for egg lenguage
 ### Esther Jorge Paramio, Sergio Guerra Arencibia
 
@@ -7,7 +7,7 @@ This module implements an evaluate method for an implementation of an egg lengua
 ## Install
 
 ```
-  npm install evaluategg
+  npm install evaluateegg
 ```
 
 ## Egg example

@@ -1,8 +1,8 @@
 {
-  "name": "evaluateegg",
+  "name": "@alu0101133201/evaluateegg",
   "version": "1.0.0",
-  "description": "module which implements the evaluate functionality for an implementation of egg lenguage",
-  "main": "eggvm.js",
+  "description": "This module implements an evaluate method for an implementation of an egg lenguage.",
+  "main": "ast.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,14 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/alu0101133201/evaluateegg.git"
   },
-  "keywords": [],
-  "author": "Esther Jorge Paramio <alu0101102498@ull.edu.es> (https://github.com/EstherJP)",
+  "author": "Sergio Guerra Arencibia <alu0101133201@ull.edu.es> | Esther Jorge Paramio <alu0101102498@ull.edu.es",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alu0101133201/evaluateegg/issues"
   },
-  "homepage": "https://github.com/alu0101133201/evaluateegg#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "homepage": "https://github.com/alu0101133201/evaluateegg#readme"
 }
