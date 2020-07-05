@@ -1,6 +1,6 @@
 {
   "name": "@alu0101133201/evaluateegg",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "This module implements an evaluate method for an implementation of an egg lenguage.",
   "main": "ast.js",
   "scripts": {
