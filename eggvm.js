@@ -83,6 +83,10 @@ function runFromEVM(file) {
   }
 }
 
+function runFromAst(ast) {
+  return(evaluate(Json2AST.Json2AST(ast), Object.create(topScope)));
+}
+
 module.exports = {
   run, 
   runFromFile, 
