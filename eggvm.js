@@ -91,6 +91,7 @@ module.exports = {
   run, 
   runFromFile, 
   runFromEVM, 
+  runFromAst,
   topScope, 
   specialForms, 
   parse, 
