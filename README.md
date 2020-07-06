@@ -30,6 +30,7 @@ main functions:
   - parseFromFile (build the AST a given file)
   - runFromFile (Interpret the AST given)
   - runFromEVM (Interpret the AST given in an EVM file)
+  - runFromAst (Interpret the AST given as js object)
 
 ```js
   const { runFromEVM } = require('@alu0101133201/evaluateegg/eggvm');

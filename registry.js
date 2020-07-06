@@ -161,7 +161,7 @@ topScope.false = false;
 
 topScope['RegExp'] = require('xregexp')
 
-for (let op of ["+", "-", "*", "/", "==", "<", ">", "<=", ">=", "||", "&&", "!=", "+=", "-="]) {
+for (let op of ["+", "-", "*", "/", "==", "<", ">", "<=", ">=", "||", "&&", "!=", "+=", "-=", "<<", ">>"]) {
   topScope[op] = Function("a, b", `return a ${op} b;`);
 }
 
